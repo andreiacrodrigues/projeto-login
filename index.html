@@ -4,10 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
     <title>Login</title>
 </head>
 <body>
+    <main>
+        <section id="login">
+
+            <div id="foto">
+             
+            </div>
+
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar a sua conta e poder fazer as configurações no seu ambiente.</p>
+
+                <form action="dados.php" method="post" autocomplete="on">
+                    <p class="fundo">
+                        <span id="pessoa" class="material-icons">person</span>
+                        <label for="iemail"> </label>
+                        <input class="campo" type="email" name="email" id="iemail" placeholder=" seu e-mail">
+                    </p>
+
+                    <p class="fundo">
+                        <span id="chave" class="material-icons">vpn_key</span>
+                        <label for="isenha"></label>
+                        <input class="campo" type="password" name="senha" id="isenha" placeholder=" sua senha" required minlength="8">
+                    </p>
+
+                    <p>
+                        <input class="submeter" id="entrar" type="submit" value="Entrar">
+                    </p>
+
+                    <p>
+                        <input class="submeter" id="esqueci" type="submit" value="Esqueci a senha"> <span id="correio" class="material-icons">mail</span>
+                    </p>
+                </form>
+            </div>
+
+        </section>
+          
+    </main>
+
     
 </body>
 </html>
