@@ -23,23 +23,23 @@
 
                 <form action="dados.php" method="post" autocomplete="on">
                     <p class="fundo">
-                        <span id="pessoa" class="material-icons">person</span>
+                        <span class="material-icons">person</span>
+                        <input class="campo" type="email" name="email" id="iemail" placeholder=" seu e-mail" autocomplete="email" readonly maxlength="30">
                         <label for="iemail"> </label>
-                        <input class="campo" type="email" name="email" id="iemail" placeholder=" seu e-mail">
                     </p>
 
                     <p class="fundo">
                         <span id="chave" class="material-icons">vpn_key</span>
+                        <input class="campo" type="password" name="senha" id="isenha" placeholder=" sua senha" required minlength="8" autocomplete="current-password">
                         <label for="isenha"></label>
-                        <input class="campo" type="password" name="senha" id="isenha" placeholder=" sua senha" required minlength="8">
                     </p>
 
                     <p>
                         <input class="submeter" id="entrar" type="submit" value="Entrar">
                     </p>
 
-                    <p>
-                        <input class="submeter" id="esqueci" type="submit" value="Esqueci a senha"> <span id="correio" class="material-icons">mail</span>
+                    <p class="botao">
+                        <a href="esqueci.html"> Esqueci a senha <span class="material-icons">mail</span></a>
                     </p>
                 </form>
             </div>

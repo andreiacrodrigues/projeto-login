@@ -5,51 +5,20 @@
     }
 
     section#login{
-        height: 290px;
-        width: 90vw;
+        height: 280px;
+        width: 80vw;
     }
 
     div#foto{
-        height: 290px;
-        width: 30vw;
-        border-radius: 20px 0px 0px 20px;
-        background-position: center center;
+        float:left;
+        height: 100%;
+        width: 30%;
     }
     
     div#formulario{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-25%, -50%);
-        height: 280px;
-        width: 58vw;
-        margin: 0px;
-        padding: 0px;
+        float: right;
+        width: 70%;
     }
-
-    div#formulario > form>p{
-        height: 40px;
-        width: 58vw;
-        margin: 2px;
-    }
-
-    div#formulario > form> p> input.campo {
-        height: 35px;
-        width: 53vw;
-    }
-
-    div#formulario > form> p> input.submeter{
-        height: 35px;
-        width: 58vw;
-        background-color: white;
-    }
-
-    span#correio{
-        position:absolute;
-        left: 300px;
-        top:240px;
-    }
-
 }
 
 
@@ -62,60 +31,27 @@
 
     section#login{
         height: 350px;
-        width: 1000px;
+        width: 950px;
     }
 
     div#foto{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(0%, -50%);
-        height: 350px;
-        width: 500px;
-        border-radius: 0px 20px 20px 0px;
-        background-position: left center;
+        float: right;
+        width: 50%;
+        height:100%;
     }
     
     div#formulario{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-100%, -50%);
-        height: 280px;
-        width: 500px;
-        margin: 0px;
-        padding: 0px;
+        float: left;
+        width:50%;
     }
+      
 
     div#formulario>h1{
         font-size:2em;
     }
     div#formulario>p{
         font-size:1em;
-    }
-
-    div#formulario > form>p{
-        height: 43px;
-        width: 495px;
-        margin: 2px;
-        font-size: 1.5em;
-    }
-
-    div#formulario > form> p> input.campo {
-        height: 35px;
-        width: 450px;
-    }
-
-    div#formulario > form> p> input.submeter{
-        height: 35px;
-        width: 495px;
-        background-color: white;
-    }
-
-    span#correio{
-        position:absolute;
-        left: 300px;
-        top:240px;
+        margin: 20px 0px;
     }
 
 }
